@@ -4,4 +4,5 @@ Proyecto Final de las materias de Base de Datos, Aprendizaje de Maquina, Minerí
 
 ## Mas información:
 
-- v2.0.0 en desarrollo
+- v2.0.0 en desarrollo.
+- Licencia MIT.
