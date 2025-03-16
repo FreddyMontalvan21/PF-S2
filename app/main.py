@@ -1,4 +1,4 @@
-from vistas.vista_general import generar_ventana
+from vistas.principal import generar_ventana
 
 
 def main():
