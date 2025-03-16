@@ -1,9 +1,8 @@
-from vistas.principal import generar_ventana
+from vistas.principal import generar_ventana_principal
 
 
 def main():
-    ventana_principal = generar_ventana("MQ Distribuidora", 700, 400)
-    ventana_principal.mainloop()
+    generar_ventana_principal()
 
 
 main()
