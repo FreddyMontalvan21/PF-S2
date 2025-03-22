@@ -9,5 +9,5 @@ class Producto:
         self.stock_max = stock_max
         self.precio = precio
 
-    def __repr__(self):
+    def __str__(self):
         return f"Producto(codigo={self.codigo}, nombre={self.nombre}, stock={self.stock})"

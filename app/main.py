@@ -1,18 +1,16 @@
-import tkinter as tk
-from mongo import conectar_db, obtener_productos, insertar_producto, actualizar_producto, eliminar_producto
-from ventana import crear_ventana
-from producto import Producto
+import procesos as p
 
 def main():
-    # Conectar a la base de datos
-    client, db, collection = conectar_db()
-    
-    # Crear la ventana principal
-    root = tk.Tk()
-    crear_ventana(root, client, db, collection)
-    
-    # Iniciar el bucle principal de la interfaz gráfica
-    root.mainloop()
+    ejecutar = True
 
-if __name__ == "__main__":
-    main()
+    while ejecutar:
+        p.presentar_menu()
+
+        opcion = input('Ingresa una opción: ')
+
+        if opcion not in ('1', '2', '3', '4', '5'):
+            print('\n Adioooss!!\n')
+            ejecutar = False
+
+
+main()
